@@ -1,4 +1,4 @@
-﻿namespace Functional_programming
+﻿namespace FunctionalProgramming
 {
     internal class Program
     {
