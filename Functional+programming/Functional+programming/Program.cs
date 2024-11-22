@@ -28,8 +28,8 @@
             //var names = Exercises002.GetCoolPeople();
             //Exercises002.PrintCoolPeople(names);
 
-            //List<int> numList = new List<int> { 5, 8, 3, 6, 67 };
-            //Exercises002.PrintSquareNums(numList);
+            List<int> numList = new List<int> { 5, 8, 3, 6, 67 };
+            Exercises002.PrintSquareNums(numList);
 
             List<string> emailList = new List<string>
             {
