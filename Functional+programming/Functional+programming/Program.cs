@@ -53,6 +53,17 @@
                 item.Value.ForEach(Console.WriteLine);
             }
 
+            List<Person> people = [];
+            people.Add(new Person(55, "11111"));
+            people.Add(new Person(1, "1"));
+
+
+            ListSumCalculator<Person> calculator = new ListSumCalculator<Person>(people);
+            Console.WriteLine(calculator.SumBy(p => p.Age)); // in this case we want to sum by age
+            Console.WriteLine(calculator.SumBy(p => Int32.Parse(p.PhoneNumber))); // sum by phone number
+            Console.WriteLine(calculator.SumBy(p => Int32.Parse(p.PhoneNumber) + p.Age)); // sum all the ages plus all the phone numbers in the list
+
         }
     }
 }
+
